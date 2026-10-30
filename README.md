@@ -1,73 +1,46 @@
-# Hospital Data Analysis Using MySQL
+ABC Multispeciality Hospital Data Analysis | MySQL
+Project Overview
+This project uses MySQL to explore a sample hospital database and answer practical questions about hospital operations, doctors, patients, appointments, and revenue.
 
-## Project Overview
-
-This project focuses on analyzing hospital management data using MySQL. It demonstrates SQL skills through queries that explore hospital operations, patient appointments, admissions, medical records, and payment information.
-
-## Project Objectives
-
-- Analyze hospital appointments and admissions.
-- Explore patient and doctor information.
-- Examine hospital departments and employee details.
-- Analyze prescriptions, laboratory tests, insurance, and payments.
-- Extract meaningful information from hospital data using SQL queries.
-
-## Database Structure
-
-The database consists of the following 13 tables:
-
-- Departments
-- Doctors
-- Patients
-- Rooms
-- Appointments
-- Admissions
-- Diagnoses
-- Medicines
-- Prescriptions
-- Lab Tests
-- Insurance
-- Payments
-- Employees
-
-## Tools Used
-
+The database and records are created for learning and portfolio demonstration purposes.
+Objectives
+- Analyze doctor salaries and department-level information.
+- Explore patient appointments and hospital activity.
+- Identify patient spending and payment trends.
+- Analyze hospital revenue and outstanding balances.
+- Practice SQL joins, aggregations, subqueries, common table expressions, and window functions.
+Database Tables
+The database contains 13 tables:
+1. departments
+2. doctors
+3. patients
+4. rooms
+5. appointments
+6. admissions
+7. diagnoses
+8. medicines
+9. prescriptions
+10. lab_tests
+11. insurance
+12. payments
+13. employees
+Tools Used
 - MySQL
 - MySQL Workbench
+SQL Concepts Practiced
+- SELECT, WHERE, ORDER BY, and LIMIT
+- GROUP BY and HAVING
+- Aggregate functions such as SUM, AVG, and COUNT
+- INNER JOIN and LEFT JOIN
+- Subqueries
+- Common Table Expressions (CTEs)
+- Window functions such as DENSE_RANK
+- Revenue and payment analysis
+Selected Query Results
+The following screenshots show selected outputs from the SQL analysis.
+1. Top Doctors by Salary
 
-## SQL Concepts Covered
+2. Top Patients by Medical Spending
 
-- Data retrieval and filtering using SELECT and WHERE
-- Sorting and grouping using ORDER BY and GROUP BY
-- Aggregate functions such as COUNT, SUM, and AVG
-- Joins and LEFT JOIN
-- Subqueries and correlated subqueries
-- Common Table Expressions
-- Window functions and ranking
-- Date-based analysis
+3. Doctor Generating the Highest Appointment Revenue
 
-## How to Run the Project
-
-1. Download the SQL file from this repository.
-2. Open the file in MySQL Workbench.
-3. Review the SQL script before executing it.
-4. Execute the database creation and sample data sections.
-5. Run the numbered analysis queries to explore the results.
-
-## Key Learnings
-
-- Practised writing SQL queries for data analysis.
-- Worked with multiple related database tables.
-- Applied joins and aggregate functions to analyze data.
-- Practised subqueries, Common Table Expressions, and window functions.
-- Developed practical experience answering data-related questions using SQL.
-
-## Data Disclaimer
-
-This project is intended for educational and portfolio purposes. The data should be treated as illustrative sample data. All potentially identifying information must be fictional or anonymized before the repository is published publicly.
-
-## Author
-
-Data Analyst Portfolio Project
-
-Hospital Management Data Analysis Using MySQL
