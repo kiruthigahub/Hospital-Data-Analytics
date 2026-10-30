@@ -2,28 +2,35 @@
 
 ## 📌 Project Overview
 
-This project uses **MySQL** to analyze a sample hospital database and answer practical questions about hospital operations, doctor performance, patient spending, and revenue.
+This project uses **MySQL** to analyze a sample hospital database. It explores doctor salaries, patient activity and spending, department performance, hospital revenue, and payment balances.
 
-The project demonstrates how SQL can be used to organize data, calculate key metrics, and generate insights that support data-driven decisions.
+The project contains **48 numbered SQL questions**, progressing from basic queries to more advanced SQL analysis.
 
-> **Dataset disclaimer:** This project is for learning and portfolio demonstration. Ensure that only synthetic or otherwise authorized, non-sensitive data is included in the public repository.
+> **Dataset disclaimer:** This is an educational portfolio project. Use only synthetic or otherwise authorized data in a public repository. Do not publish real patient-identifiable or confidential information.
 
 ## 🎯 Project Objectives
 
-- Analyze hospital data using SQL.
-- Explore doctor performance and salary information.
-- Identify patients with the highest spending.
-- Analyze hospital revenue.
-- Practice writing queries that answer business questions.
+- Analyze doctor salaries and compare salaries across departments.
+- Explore patient appointments, admissions, and spending.
+- Compare department activity and revenue.
+- Review hospital billing, unpaid bills, and outstanding balances.
+- Practice SQL techniques used in data analysis.
 
 ## 🗄️ Database Tables
 
-The database contains hospital-related tables covering areas such as patients, doctors, appointments, billing, and other hospital operations. Refer to the SQL file in this repository for the exact table definitions and relationships.
+The database includes 13 tables:
 
-## 🛠️ Tools and Skills
+`departments`, `doctors`, `patients`, `rooms`, `appointments`, `admissions`, `diagnoses`, `medicines`, `prescriptions`, `lab_tests`, `insurance`, `payments`, and `employees`.
+
+## 🛠️ Tools and SQL Skills
 
 - **Database:** MySQL
-- **SQL concepts:** `SELECT`, `WHERE`, `ORDER BY`, `GROUP BY`, aggregate functions, joins, subqueries, and other analysis queries included in the SQL file.
+- **Basic queries:** `SELECT`, `WHERE`, `DISTINCT`, `ORDER BY`, `LIMIT`
+- **Aggregations:** `COUNT()`, `SUM()`, `AVG()`, `GROUP BY`, `HAVING`
+- **Joins:** `INNER JOIN`, `LEFT JOIN`
+- **Subqueries:** filtering and comparing values with aggregate results
+- **Advanced SQL:** CTEs, `DENSE_RANK()`, `LAG()`, window functions, running totals
+- **Analysis areas:** salary analysis, patient spending, department comparisons, revenue trends, and outstanding balances
 
 ## 📊 Selected SQL Analysis Screenshots
 
@@ -36,26 +43,49 @@ The database contains hospital-related tables covering areas such as patients, d
 ### Highest Revenue Doctor
 ![Highest Revenue Doctor](Screenshots/highest-revenue-doctor.png)
 
+## 💡 Business Questions This Project Explores
+
+- Who are the highest-paid doctors?
+- Which doctors earn above the hospital or their department's average salary?
+- Which patients have the highest medical spending?
+- Which departments have the most doctors or patients?
+- Which department and doctor generate the highest recorded revenue?
+- What is the monthly revenue, running revenue, and month-over-month revenue change?
+- Which bills are unpaid, and which patients have outstanding balances?
+
+## 📈 Business Insights
+
+The SQL queries are designed to help explore:
+
+- **Staffing and compensation:** compare doctor salaries and department-level averages.
+- **Patient activity:** examine appointment patterns, admissions, and patient spending.
+- **Department performance:** compare patient activity and recorded revenue across departments.
+- **Revenue monitoring:** summarize monthly revenue and calculate changes over time.
+- **Payment follow-up:** identify unpaid bills and outstanding balances.
+
+These are analysis areas, not claims about real hospital performance. Actual conclusions should be written only after reviewing the query results.
+
 ## 🚀 How to Run
 
 1. Download or clone this repository.
 2. Open MySQL Workbench and connect to your MySQL server.
 3. Open the SQL file in this repository.
-4. Review the script, then execute the database/table creation and data-loading statements as appropriate.
-5. Run the analysis queries to explore the results.
+4. Review the script before executing it, especially the database creation and data insertion statements.
+5. Run the script in order, then execute the analysis queries to review the results.
 
-> **Tip:** Check the SQL file before running it, especially if you already have databases with the same names. Back up any important data first.
+> **Tip:** Back up important data first and check whether a database with the same name already exists before running the script.
 
-## 💡 What I Learned
+## 📚 What I Practiced
 
 - Writing SQL queries to answer business questions.
-- Summarizing and comparing data using aggregate functions.
-- Analyzing doctor performance, patient spending, and revenue.
-- Presenting query results clearly with screenshots.
+- Joining related tables and aggregating records.
+- Using subqueries and common table expressions.
+- Applying window functions for ranking and revenue trends.
+- Analyzing salary, patient spending, revenue, and billing data.
 
 ## ⚠️ Disclaimer
 
-This is an educational portfolio project, not a clinical or operational decision-making system. Do not upload real patient-identifiable or confidential hospital data to a public repository.
+This project is for educational and portfolio demonstration only. It is not a clinical or operational decision-making system. Do not upload real patient-identifiable or confidential hospital data to a public repository.
 
 ## 👩‍💻 Author
 
