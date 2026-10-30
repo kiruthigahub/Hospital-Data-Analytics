@@ -91,4 +91,4 @@ This project is for educational and portfolio demonstration only. It is not a cl
 
 **Kiruthiga Narayanasamy**
 
-Aspiring Data Analyst | MySQL | SQL Analytics
+ Data Analyst | MySQL | SQL Analytics
