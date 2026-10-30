@@ -1,44 +1,73 @@
-ABC Multispeciality Hospital Management — SQL Data Analysis
-Project Overview
-This project uses MySQL to explore sample hospital-management data. It is designed as a SQL data-analysis portfolio project and includes database setup, sample records, and numbered analysis questions.
-Project Objectives
-- Explore hospital appointments and admissions.
-- Analyze information related to doctors, departments, patients, and employees.
-- Examine prescriptions, laboratory tests, insurance, and payments.
-- Practise answering data questions using SQL queries.
-Database Structure
-The database contains 13 tables:
-- departments
-- doctors
-- patients
-- rooms
-- appointments
-- admissions
-- diagnoses
-- medicines
-- prescriptions
-- lab_tests
-- insurance
-- payments
-- employees
-SQL Concepts Practised
-- Filtering and sorting with WHERE and ORDER BY
-- Grouping and aggregate functions such as COUNT(), SUM(), and AVG()
-- Joins, including LEFT JOIN
+# Hospital Data Analysis Using MySQL
+
+## Project Overview
+
+This project focuses on analyzing hospital management data using MySQL. It demonstrates SQL skills through queries that explore hospital operations, patient appointments, admissions, medical records, and payment information.
+
+## Project Objectives
+
+- Analyze hospital appointments and admissions.
+- Explore patient and doctor information.
+- Examine hospital departments and employee details.
+- Analyze prescriptions, laboratory tests, insurance, and payments.
+- Extract meaningful information from hospital data using SQL queries.
+
+## Database Structure
+
+The database consists of the following 13 tables:
+
+- Departments
+- Doctors
+- Patients
+- Rooms
+- Appointments
+- Admissions
+- Diagnoses
+- Medicines
+- Prescriptions
+- Lab Tests
+- Insurance
+- Payments
+- Employees
+
+## Tools Used
+
+- MySQL
+- MySQL Workbench
+
+## SQL Concepts Covered
+
+- Data retrieval and filtering using SELECT and WHERE
+- Sorting and grouping using ORDER BY and GROUP BY
+- Aggregate functions such as COUNT, SUM, and AVG
+- Joins and LEFT JOIN
 - Subqueries and correlated subqueries
-- Common Table Expressions (CTEs)
+- Common Table Expressions
 - Window functions and ranking
 - Date-based analysis
-Tools Used
-- MySQL
-- MySQL Workbench (or another compatible MySQL client)
-How to Run
-1. Download ABC_Hospital_Management_Data_Analysis.sql.
+
+## How to Run the Project
+
+1. Download the SQL file from this repository.
 2. Open the file in MySQL Workbench.
-3. Review the script before execution.
-4. Run the database/table creation and sample-data sections first.
-5. Execute the numbered analysis queries and review the results.
-Data Disclaimer
-This is a learning project using illustrative sample data. Before making this repository public, verify that all patient names, phone-number-like values, and other records are fictional or anonymized. Do not publish real patient information or confidential data.
-Author
-Created as a SQL data-analysis portfolio project.
+3. Review the SQL script before executing it.
+4. Execute the database creation and sample data sections.
+5. Run the numbered analysis queries to explore the results.
+
+## Key Learnings
+
+- Practised writing SQL queries for data analysis.
+- Worked with multiple related database tables.
+- Applied joins and aggregate functions to analyze data.
+- Practised subqueries, Common Table Expressions, and window functions.
+- Developed practical experience answering data-related questions using SQL.
+
+## Data Disclaimer
+
+This project is intended for educational and portfolio purposes. The data should be treated as illustrative sample data. All potentially identifying information must be fictional or anonymized before the repository is published publicly.
+
+## Author
+
+Data Analyst Portfolio Project
+
+Hospital Management Data Analysis Using MySQL
